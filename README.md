@@ -1,2 +1,2 @@
-# juegoahorcado
+# GraficainteractivaMálaga
 Introducción a javascript
