@@ -1,0 +1,217 @@
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+
+    height: 100%;
+}
+
+body {
+
+    font-family: 'Roboto Slab', serif;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+div {
+    margin-top: 0.75%;
+    padding: 0.5em;
+    background-color: #ddd;
+}
+
+.progreso {
+
+    display: flex;
+    justify-content: center;
+}
+
+.barraEstado {
+
+    width: 40%;
+    background-color: orange;
+    height: 15px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+
+}
+
+p {
+
+    margin-top: 2%;
+}
+
+.barraEstado div {
+    width: 0;
+    height: 15px;
+    background-color: yellow;
+    padding: 0;
+    border-radius: 10px;
+
+}
+
+.barraCompletado {
+
+    width: 40%;
+    background-color: green;
+    height: 15px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.barraCompletado div {
+    width: 0;
+    height: 15px;
+    background-color: greenyellow;
+    padding: 0;
+    border-radius: 10px;
+
+}
+
+#displayMensajes {
+    color: red;
+    display: none;
+}
+
+#displayEstadoJuego {
+    float: left;
+   
+
+}
+
+.botones {
+    padding: 0;
+    display: flex;
+    margin-left: 5%;
+    width:30%;
+    float: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.letras {
+    padding: 0.4em;
+    margin: 1% 0 1% 1%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: darkcyan;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    cursor: pointer;
+}
+
+.letras:disabled,
+.letras:hover:disabled {
+
+    background-color: coral;
+    cursor: auto;
+    box-shadow: 0px 0px;
+}
+
+.letras:hover {
+    box-shadow: 0 4px 5px 0 rgba(60, 64, 67, 0.302), 0 4px 6px 1px rgba(60, 64, 67, 0.149);
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#btnPlay {
+    cursor: pointer;
+    padding: 0.4em;
+    margin: 1% 0 1% 1%;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: yellow;
+    color: darkcyan;
+    font-weight: 600;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+
+#btnPlay:hover {
+    box-shadow: 0 4px 5px 0 rgba(60, 64, 67, 0.302), 0 4px 6px 1px rgba(60, 64, 67, 0.149);
+}
+
+.ahorcado {
+
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.ahorcado0 {
+
+    background-image: url(img/ahorcado0.png);
+}
+
+.ahorcado1 {
+
+    background-image: url(img/ahorcado1.png);
+}
+
+.ahorcado2 {
+
+    background-image: url(img/ahorcado2.png);
+}
+
+.ahorcado3 {
+
+    background-image: url(img/ahorcado3.png);
+}
+
+.ahorcado4 {
+
+    background-image: url(img/ahorcado4.png);
+}
+
+.ahorcado5 {
+
+    background-image: url(img/ahorcado5.png);
+}
+
+.ahorcado6 {
+
+    background-image: url(img/ahorcado6.png);
+}
+
+.ahorcado7 {
+
+    background-image: url(img/ahorcado7.png);
+
+}
+
+.ahorcado8 {
+
+    background-image: url(img/ahorcado8.png);
+
+}
+
+.ahorcado9 {
+
+    background-image: url(img/ahorcado9.png);
+
+}
