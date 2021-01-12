@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<HEAD>
+    <TITLE>Ejemplo de juego</TITLE>
+      <meta charset="UTF-8">
+    <script src="juego_espacios.js"></script>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</HEAD>
+
+<body>
+    <div id="wrapper">
+        <h2>Juego del ahorcado</h2>
+        <div class="progreso">
+            <div id="displayEstadoJuego" class="ahorcado"></div>
+             <div class="botones">
+            <!-- input:b.letras#letra_  -->
+
+            <input type="button" value="A" id="A" class="letras">
+            <input type="button" value="B" id="B" class="letras">
+            <input type="button" value="C" id="C" class="letras">
+            <input type="button" value="D" id="D" class="letras">
+            <input type="button" value="E" id="E" class="letras">
+            <input type="button" value="F" id="F" class="letras">
+            <input type="button" value="G" id="G" class="letras">
+            <input type="button" value="H" id="H" class="letras">
+            <input type="button" value="I" id="I" class="letras">
+            <input type="button" value="J" id="J" class="letras">
+            <input type="button" value="K" id="K" class="letras">
+            <input type="button" value="L" id="L" class="letras">
+            <input type="button" value="M" id="M" class="letras">
+            <input type="button" value="N" id="N" class="letras">
+            <input type="button" value="Ñ" id="Ñ" class="letras">
+            <input type="button" value="O" id="O" class="letras">
+            <input type="button" value="P" id="P" class="letras">
+            <input type="button" value="Q" id="Q" class="letras">
+            <input type="button" value="R" id="R" class="letras">
+            <input type="button" value="S" id="S" class="letras">
+            <input type="button" value="T" id="T" class="letras">
+            <input type="button" value="U" id="U" class="letras">
+            <input type="button" value="V" id="V" class="letras">
+            <input type="button" value="W" id="W" class="letras">
+            <input type="button" value="X" id="X" class="letras">
+            <input type="button" value="Y" id="Y" class="letras">
+            <input type="button" value="Z" id="Z" class="letras">
+        </div>
+        </div>
+        <p>Fallos</p>
+        <div class="barraEstado">
+            <div id="displayBarraEstado"></div>
+        </div>
+        <p>Letras completadas</p>
+        <div class="barraCompletado">
+            <div id="displayBarraCompletado"></div>
+        </div>
+        <!--  <div>Letras usadas: <span id="displayLetrasUsadas"></span></div> -->
+       
+        <div>Palabra: <span id="displayPalabra"></span> </div>
+        <div id="displayMensajes"></div>
+
+       
+
+        <div class="inicio">
+            <input type="button" id="btnPlay" name="Inicia" value="PLAY">
+        </div>
+    </div>
+
+</body>
+ 
